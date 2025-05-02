@@ -4,6 +4,8 @@ import ReactLogo from "./assets/logos/react.png";
 import ReduxLogo from "./assets/logos/redux.png";
 import VsLogo from "./assets/logos/vscode.png";
 import NodeLogo from "./assets/logos/node.png";
+import Project1 from "./assets/project1.png";
+import Project2 from "./assets/project2.png";
 
 export const logos = [
     { src: JsLogo, id: 1},
@@ -33,3 +35,23 @@ export const infoEng = {
 export const aboutTur = {title: "Hakkımda", text1:"Yeni beceriler edinmek ve yeni zorluklarla kendimi sürekli geliştirmek için büyüme zihniyetine sahip hevesli bir web geliştiricisiyim.", text2: "Petrol Mühendisliği alanında 10 yıl çalıştıktan sonra çocukluk hayalim olan yazılımcı olma hayalimi gerçekleştirmeye ve 6 aylık yoğun Workintech full-stack geliştirme programını tamamlayarak front end, back end ve CS alanlarında kendimi geliştirmeye karar verdim."};
 
 export const aboutEng = {title: "About me", text1: "I am an aspiring full-stack developer with a growth mindset to acquire new skills and continuously develop myself with new challenges.", text2: "After working as petroleum engineer for 10 years, I decided to fulfill my childhood dream to become a software developer and improve myself in front end, back end and CS by completing a 6-month intensive Workintech full-stack development program."};
+
+export const cardData = [
+    {
+      title: "Watchlist",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
+      tags: ["react", "vercel", "axios", "router"],
+      githubUrl: "https://github.com/user/random-jokes",
+      appUrl: "https://random-jokes-app.vercel.app",
+      src: Project1
+    },
+    {
+      title: "Are you bored?",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!",
+      tags: ["react", "redux", "axios", "router", "vercel"],
+      githubUrl: "https://github.com/user/are-you-bored",
+      appUrl: "https://are-you-bored-app.vercel.app",
+      src: Project2
+    },
+  ];
+  
